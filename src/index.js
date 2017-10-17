@@ -1,5 +1,5 @@
-var calculate = require('./utils/utils');
+var utils = require('./utils/utils');
 
 module.exports = {
-    mathUtils : calculate,
+    mathUtils : utils,
 }
