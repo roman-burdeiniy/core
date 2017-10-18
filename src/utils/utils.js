@@ -7,4 +7,8 @@ const multiply = function(a, b) {
 }
 
 
-module.exports = {add : add, multiply: multiply};
+const subs = function(a, b) {
+    return a - b;
+}
+
+module.exports = {add : add, multiply: multiply, subs : subs};
